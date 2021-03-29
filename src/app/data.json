@@ -1,0 +1,62 @@
+{
+  "users": [{
+    "name": "Marcel",
+    "sexe": "M",
+    "prog": "Java",
+    "price": "14.2"
+  },
+  {
+    "name": "Khalid",
+    "sexe": "M",
+    "prog": "Scala",
+    "price": "15.4"
+  },
+  {
+    "name": "Bernhard",
+    "sexe": "M",
+    "prog": "C",
+    "price": "13.2"
+  },
+  {
+    "name": "Melania",
+    "sexe": "F",
+    "prog": "R",
+    "price": "11.5"
+  },
+  {
+    "name": "Lana",
+    "sexe": "F",
+    "prog": "R",
+    "price": "12.3"
+  },
+  {
+    "name": "Emil",
+    "sexe": "M",
+    "prog": "Cobold",
+    "price": "20.5"
+  },
+  {
+    "name": "Mary",
+    "sexe": "F",
+    "prog": "Java",
+    "price": "15.10"
+  },
+  {
+    "name": "Mary",
+    "sexe": "F",
+    "prog": "Python",
+    "price": "8.10"
+  },
+  {
+    "name": "Martin",
+    "sexe": "M",
+    "prog": "Javascript",
+    "price": "10.10"
+  },
+  {
+    "name": "David",
+    "sexe": "M",
+    "prog": "Typescript",
+    "price": "9.50"
+  }]
+}

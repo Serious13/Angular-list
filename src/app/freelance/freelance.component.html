@@ -1,0 +1,22 @@
+<div class="container">
+    <h2>List of freelancers: </h2>    
+    <select (change) ="changeColor($event)"> <!--#newItem (click)="addNewItem(newItem.value)"-->
+        <option  *ngFor="let user of p; index as i" [ngClass]="{
+            'first':users[i].sexe === 'M',
+            'second':users[i].sexe === 'F'
+          }">  
+            {{'name: ' + users[i].name+ ' '}} {{'sexe: ' + users[i].sexe + ' '}} {{'prog: ' + users[i].prog + ' '}} {{'price: ' + users[i].price + ' '}}            
+        </option>
+    </select>    
+</div>
+<!--<div *ngIf="users[i].sexe == 'M'">
+                <div [ngStyle]="{'background-color': 'red'}">
+                    
+                    {{'name: ' + users[i].name+ ' '}} {{'sexe: ' + users[i].sexe + ' '}} {{'prog: ' + users[i].prog + ' '}} {{'price: ' + users[i].price + ' '}}
+                </div>                
+            </div>       
+            <div *ngIf="users[i].sexe == 'F'">
+                <div [ngStyle]="{'color':'orange'}">
+                    {{'name: ' + users[i].name+ ' '}} {{'sexe: ' + users[i].sexe + ' '}} {{'prog: ' + users[i].prog + ' '}} {{'price: ' + users[i].price + ' '}}
+                </div>               
+</div> -->  
